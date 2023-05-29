@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demographic Survey</title>
+  <link rel = "shortcut icon" type = "x-icon" href = "icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#292626;">
+  <form>
+    <h1 align = "center">Demographic Survey</h1><br>
+    <div class="form-group name-group">
+      <label for="name">Name</label><br>
+      <input type="text" name="name" id="name" placeholder="First Name">
+	<br>
+      <input type="text" name="name" id="name" placeholder="Last Name">
+	<br>
+      <input type="text" name="name" id="name" placeholder="Middle Name">
+	<br><br>
+    </div>
+    <div class="form-group">
+      <label for="age">Age</label><br>
+      <input type="number" name="age" id="age">
+	<br><br>
+    </div>
+    <div class="form-group">
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label>
+	<input type="radio" name="gender" id="others" value="others">
+      <label for="others">Others</label>
+	<br><br>
+    </div>
+    <div class="form-group">
+  	<label for="income">Income (0 - 100,000)</label><br>
+  	<input type="range" name="income" id="income" min="0" max="100000"><br><br>
+    </div>
+
+    <div class="form-group">
+      <label for="date_of_birth">Date of Birth</label><br>
+      <input type="date" name="date_of_birth" id="date_of_birth"><br><br>
+    </div>
+    <div class="form-group">
+      <label for="country">Country</label><br>
+      <select name="country" id="country">
+        <option value="United States">United States</option>
+        <option value="Canada">Canada</option>
+        <option value="United Kingdom">United Kingdom</option>
+        <option value="Australia">Australia</option>
+        <option value="India">India</option>
+        <option value="China">China</option>
+        <option value="Japan">Japan</option>
+        <option value="Brazil">Brazil</option>
+        <option value="Russia">Russia</option>
+      </select>
+	<br><br>
+    </div>
+    <div class="form-group">
+      <label for="address">Address</label><br>
+      <textarea name="address" id="address"></textarea><br><br>
+    </div>
+    <div class="form-group">
+      <label for="religion">Religion</label><br>
+      <select name="religion" id="religion">
+        <option value="Hindu">Hindu</option>
+        <option value="Muslim">Muslim</option>
+        <option value="Christian">Christian</option>
+        <option value="Other">Other</option><br><br>
+      </select>
+    </div>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
