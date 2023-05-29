@@ -1,3 +1,3 @@
 # SmartBridge-Assignments
-Course : Modern Application Development suing Spring Boot
+Course : Modern Application Development using Spring Boot
 SmartBridge Externship
